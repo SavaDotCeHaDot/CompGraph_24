@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL Color Changer</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="glCanvas" width="640" height="480"></canvas>
+
+    <div class="controls">
+        <button id="color1">Color 1</button>
+        <button id="color2">Color 2</button>
+        <button id="color3">Color 3</button>
+        <button id="resetColor">Reset Color</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
